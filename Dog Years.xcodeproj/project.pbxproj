@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212EC870205C33CD0046A2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EC86F205C33CD0046A2C3 /* AppDelegate.swift */; };
+		212EC872205C33CD0046A2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EC871205C33CD0046A2C3 /* ViewController.swift */; };
+		212EC875205C33CD0046A2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212EC873205C33CD0046A2C3 /* Main.storyboard */; };
+		212EC877205C33CD0046A2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212EC876205C33CD0046A2C3 /* Assets.xcassets */; };
+		212EC87A205C33CD0046A2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212EC878205C33CD0046A2C3 /* LaunchScreen.storyboard */; };
+		212EC885205C33CE0046A2C3 /* Dog_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EC884205C33CE0046A2C3 /* Dog_YearsTests.swift */; };
+		212EC890205C33CE0046A2C3 /* Dog_YearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EC88F205C33CE0046A2C3 /* Dog_YearsUITests.swift */; };
+		212EC89E205C39970046A2C3 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 212EC89D205C39970046A2C3 /* download (1).jpeg */; };
+		212EC8A0205C3A490046A2C3 /* 8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 212EC89F205C3A490046A2C3 /* 8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212EC881205C33CE0046A2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212EC864205C33CD0046A2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212EC86B205C33CD0046A2C3;
+			remoteInfo = "Dog Years";
+		};
+		212EC88C205C33CE0046A2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212EC864205C33CD0046A2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212EC86B205C33CD0046A2C3;
+			remoteInfo = "Dog Years";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212EC86C205C33CD0046A2C3 /* Dog Years.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Years.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212EC86F205C33CD0046A2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212EC871205C33CD0046A2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		212EC874205C33CD0046A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212EC876205C33CD0046A2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212EC879205C33CD0046A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212EC87B205C33CD0046A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212EC880205C33CE0046A2C3 /* Dog YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212EC884205C33CE0046A2C3 /* Dog_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_YearsTests.swift; sourceTree = "<group>"; };
+		212EC886205C33CE0046A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212EC88B205C33CE0046A2C3 /* Dog YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212EC88F205C33CE0046A2C3 /* Dog_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_YearsUITests.swift; sourceTree = "<group>"; };
+		212EC891205C33CE0046A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212EC89D205C39970046A2C3 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		212EC89F205C3A490046A2C3 /* 8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212EC869205C33CD0046A2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC87D205C33CE0046A2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC888205C33CE0046A2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212EC863205C33CD0046A2C3 = {
+			isa = PBXGroup;
+			children = (
+				212EC86E205C33CD0046A2C3 /* Dog Years */,
+				212EC883205C33CE0046A2C3 /* Dog YearsTests */,
+				212EC88E205C33CE0046A2C3 /* Dog YearsUITests */,
+				212EC86D205C33CD0046A2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212EC86D205C33CD0046A2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212EC86C205C33CD0046A2C3 /* Dog Years.app */,
+				212EC880205C33CE0046A2C3 /* Dog YearsTests.xctest */,
+				212EC88B205C33CE0046A2C3 /* Dog YearsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212EC86E205C33CD0046A2C3 /* Dog Years */ = {
+			isa = PBXGroup;
+			children = (
+				212EC86F205C33CD0046A2C3 /* AppDelegate.swift */,
+				212EC871205C33CD0046A2C3 /* ViewController.swift */,
+				212EC873205C33CD0046A2C3 /* Main.storyboard */,
+				212EC876205C33CD0046A2C3 /* Assets.xcassets */,
+				212EC878205C33CD0046A2C3 /* LaunchScreen.storyboard */,
+				212EC87B205C33CD0046A2C3 /* Info.plist */,
+				212EC89D205C39970046A2C3 /* download (1).jpeg */,
+				212EC89F205C3A490046A2C3 /* 8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg */,
+			);
+			path = "Dog Years";
+			sourceTree = "<group>";
+		};
+		212EC883205C33CE0046A2C3 /* Dog YearsTests */ = {
+			isa = PBXGroup;
+			children = (
+				212EC884205C33CE0046A2C3 /* Dog_YearsTests.swift */,
+				212EC886205C33CE0046A2C3 /* Info.plist */,
+			);
+			path = "Dog YearsTests";
+			sourceTree = "<group>";
+		};
+		212EC88E205C33CE0046A2C3 /* Dog YearsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				212EC88F205C33CE0046A2C3 /* Dog_YearsUITests.swift */,
+				212EC891205C33CE0046A2C3 /* Info.plist */,
+			);
+			path = "Dog YearsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212EC86B205C33CD0046A2C3 /* Dog Years */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212EC894205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog Years" */;
+			buildPhases = (
+				212EC868205C33CD0046A2C3 /* Sources */,
+				212EC869205C33CD0046A2C3 /* Frameworks */,
+				212EC86A205C33CD0046A2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Years";
+			productName = "Dog Years";
+			productReference = 212EC86C205C33CD0046A2C3 /* Dog Years.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212EC87F205C33CE0046A2C3 /* Dog YearsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212EC897205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog YearsTests" */;
+			buildPhases = (
+				212EC87C205C33CE0046A2C3 /* Sources */,
+				212EC87D205C33CE0046A2C3 /* Frameworks */,
+				212EC87E205C33CE0046A2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212EC882205C33CE0046A2C3 /* PBXTargetDependency */,
+			);
+			name = "Dog YearsTests";
+			productName = "Dog YearsTests";
+			productReference = 212EC880205C33CE0046A2C3 /* Dog YearsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212EC88A205C33CE0046A2C3 /* Dog YearsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212EC89A205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog YearsUITests" */;
+			buildPhases = (
+				212EC887205C33CE0046A2C3 /* Sources */,
+				212EC888205C33CE0046A2C3 /* Frameworks */,
+				212EC889205C33CE0046A2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212EC88D205C33CE0046A2C3 /* PBXTargetDependency */,
+			);
+			name = "Dog YearsUITests";
+			productName = "Dog YearsUITests";
+			productReference = 212EC88B205C33CE0046A2C3 /* Dog YearsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212EC864205C33CD0046A2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Adam Southey";
+				TargetAttributes = {
+					212EC86B205C33CD0046A2C3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					212EC87F205C33CE0046A2C3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 212EC86B205C33CD0046A2C3;
+					};
+					212EC88A205C33CE0046A2C3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 212EC86B205C33CD0046A2C3;
+					};
+				};
+			};
+			buildConfigurationList = 212EC867205C33CD0046A2C3 /* Build configuration list for PBXProject "Dog Years" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212EC863205C33CD0046A2C3;
+			productRefGroup = 212EC86D205C33CD0046A2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212EC86B205C33CD0046A2C3 /* Dog Years */,
+				212EC87F205C33CE0046A2C3 /* Dog YearsTests */,
+				212EC88A205C33CE0046A2C3 /* Dog YearsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212EC86A205C33CD0046A2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212EC87A205C33CD0046A2C3 /* LaunchScreen.storyboard in Resources */,
+				212EC877205C33CD0046A2C3 /* Assets.xcassets in Resources */,
+				212EC875205C33CD0046A2C3 /* Main.storyboard in Resources */,
+				212EC89E205C39970046A2C3 /* download (1).jpeg in Resources */,
+				212EC8A0205C3A490046A2C3 /* 8ad5aef5bc1388bef352f5ee08406bf8--pomeranians-puppy-pomeranian-puppy-teacup.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC87E205C33CE0046A2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC889205C33CE0046A2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212EC868205C33CD0046A2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212EC872205C33CD0046A2C3 /* ViewController.swift in Sources */,
+				212EC870205C33CD0046A2C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC87C205C33CE0046A2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212EC885205C33CE0046A2C3 /* Dog_YearsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212EC887205C33CE0046A2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212EC890205C33CE0046A2C3 /* Dog_YearsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212EC882205C33CE0046A2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212EC86B205C33CD0046A2C3 /* Dog Years */;
+			targetProxy = 212EC881205C33CE0046A2C3 /* PBXContainerItemProxy */;
+		};
+		212EC88D205C33CE0046A2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212EC86B205C33CD0046A2C3 /* Dog Years */;
+			targetProxy = 212EC88C205C33CE0046A2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212EC873205C33CD0046A2C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212EC874205C33CD0046A2C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212EC878205C33CD0046A2C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212EC879205C33CD0046A2C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212EC892205C33CE0046A2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212EC893205C33CE0046A2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212EC895205C33CE0046A2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Years/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-Years";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212EC896205C33CE0046A2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog Years/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-Years";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		212EC898205C33CE0046A2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog YearsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-YearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Years.app/Dog Years";
+			};
+			name = Debug;
+		};
+		212EC899205C33CE0046A2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog YearsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-YearsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog Years.app/Dog Years";
+			};
+			name = Release;
+		};
+		212EC89B205C33CE0046A2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog YearsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-YearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Years";
+			};
+			name = Debug;
+		};
+		212EC89C205C33CE0046A2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dog YearsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamsouthey.Dog-YearsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dog Years";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212EC867205C33CD0046A2C3 /* Build configuration list for PBXProject "Dog Years" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212EC892205C33CE0046A2C3 /* Debug */,
+				212EC893205C33CE0046A2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212EC894205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog Years" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212EC895205C33CE0046A2C3 /* Debug */,
+				212EC896205C33CE0046A2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212EC897205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog YearsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212EC898205C33CE0046A2C3 /* Debug */,
+				212EC899205C33CE0046A2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212EC89A205C33CE0046A2C3 /* Build configuration list for PBXNativeTarget "Dog YearsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212EC89B205C33CE0046A2C3 /* Debug */,
+				212EC89C205C33CE0046A2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212EC864205C33CD0046A2C3 /* Project object */;
+}
